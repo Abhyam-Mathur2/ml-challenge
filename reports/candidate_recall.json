@@ -1,0 +1,17 @@
+{
+  "rows": 1000,
+  "matched_ids": 0,
+  "matched_ids_found": 0,
+  "candidate_recall": 1.0,
+  "average_candidates": 118.886,
+  "median_candidates": 120.0,
+  "p95_candidates": 160.0,
+  "max_candidates": 160,
+  "by_true_match_count": {
+    "0": {
+      "found": 0,
+      "total": 0,
+      "recall": 1.0
+    }
+  }
+}

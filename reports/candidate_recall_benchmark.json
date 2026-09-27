@@ -1,0 +1,329 @@
+{
+  "sample_size": 5000,
+  "requested_sample_size": 5000,
+  "random_state": 42,
+  "budgets": [
+    50,
+    80,
+    120,
+    160
+  ],
+  "results": {
+    "50": {
+      "overall_recall": 0.4294667571943385,
+      "s2_recall": 0.44863234977385313,
+      "s3_recall": 0.41141872021093195,
+      "true_ids": 19147,
+      "recovered_ids": 8223,
+      "missed_ids": 10924,
+      "by_match_count": {
+        "0": {
+          "s1_rows": 500,
+          "true_ids": 0,
+          "recovered_ids": 0,
+          "recall": null
+        },
+        "1": {
+          "s1_rows": 500,
+          "true_ids": 500,
+          "recovered_ids": 221,
+          "recall": 0.442
+        },
+        "2": {
+          "s1_rows": 500,
+          "true_ids": 1000,
+          "recovered_ids": 420,
+          "recall": 0.42
+        },
+        "3": {
+          "s1_rows": 500,
+          "true_ids": 1500,
+          "recovered_ids": 671,
+          "recall": 0.44733333333333336
+        },
+        "4": {
+          "s1_rows": 500,
+          "true_ids": 2000,
+          "recovered_ids": 879,
+          "recall": 0.4395
+        },
+        "5+": {
+          "s1_rows": 2500,
+          "true_ids": 14147,
+          "recovered_ids": 6032,
+          "recall": 0.42638015126882023
+        }
+      },
+      "average_candidates": 100.0,
+      "median_candidates": 100.0,
+      "p90_candidates": 100.0,
+      "p95_candidates": 100.0,
+      "p99_candidates": 100.0,
+      "max_candidates": 100,
+      "rule_candidate_counts": {
+        "exact_name": 44809,
+        "exact_address": 1565,
+        "country_name": 437518,
+        "country_address": 45425,
+        "name_token": 385454,
+        "address_token": 41973,
+        "prefix_name": 104840,
+        "prefix_address": 15754
+      },
+      "rule_true_id_recall": {
+        "exact_name": 0.24123883637123308,
+        "exact_address": 0.07160390661722463,
+        "country_name": 0.38355878205462995,
+        "country_address": 0.2134015772705907,
+        "name_token": 0.19663654880660156,
+        "address_token": 0.16467331696871573,
+        "prefix_name": 0.030709771765811876,
+        "prefix_address": 0.033477829424975195
+      },
+      "singleton": {
+        "s1_rows": 500,
+        "zero_candidate_rows": 0,
+        "zero_candidate_percent": 0.0,
+        "average_candidates": 100.0,
+        "median_candidates": 100.0
+      }
+    },
+    "80": {
+      "overall_recall": 0.5106282968611271,
+      "s2_recall": 0.5425371527029937,
+      "s3_recall": 0.4805800628739479,
+      "true_ids": 19147,
+      "recovered_ids": 9777,
+      "missed_ids": 9370,
+      "by_match_count": {
+        "0": {
+          "s1_rows": 500,
+          "true_ids": 0,
+          "recovered_ids": 0,
+          "recall": null
+        },
+        "1": {
+          "s1_rows": 500,
+          "true_ids": 500,
+          "recovered_ids": 262,
+          "recall": 0.524
+        },
+        "2": {
+          "s1_rows": 500,
+          "true_ids": 1000,
+          "recovered_ids": 491,
+          "recall": 0.491
+        },
+        "3": {
+          "s1_rows": 500,
+          "true_ids": 1500,
+          "recovered_ids": 784,
+          "recall": 0.5226666666666666
+        },
+        "4": {
+          "s1_rows": 500,
+          "true_ids": 2000,
+          "recovered_ids": 1033,
+          "recall": 0.5165
+        },
+        "5+": {
+          "s1_rows": 2500,
+          "true_ids": 14147,
+          "recovered_ids": 7207,
+          "recall": 0.5094366296741358
+        }
+      },
+      "average_candidates": 160.0,
+      "median_candidates": 160.0,
+      "p90_candidates": 160.0,
+      "p95_candidates": 160.0,
+      "p99_candidates": 160.0,
+      "max_candidates": 160,
+      "rule_candidate_counts": {
+        "exact_name": 49585,
+        "exact_address": 2170,
+        "country_name": 615158,
+        "country_address": 140685,
+        "name_token": 560198,
+        "address_token": 138913,
+        "prefix_name": 120862,
+        "prefix_address": 45502
+      },
+      "rule_true_id_recall": {
+        "exact_name": 0.2428578889643286,
+        "exact_address": 0.09735206559774377,
+        "country_name": 0.3875802997858672,
+        "country_address": 0.2916906042722097,
+        "name_token": 0.19684545881861387,
+        "address_token": 0.22677181803937954,
+        "prefix_name": 0.031075364286833447,
+        "prefix_address": 0.04596020264271165
+      },
+      "singleton": {
+        "s1_rows": 500,
+        "zero_candidate_rows": 0,
+        "zero_candidate_percent": 0.0,
+        "average_candidates": 160.0,
+        "median_candidates": 160.0
+      }
+    },
+    "120": {
+      "overall_recall": 0.6257377134799186,
+      "s2_recall": 0.6563644195563213,
+      "s3_recall": 0.5968968664435655,
+      "true_ids": 19147,
+      "recovered_ids": 11981,
+      "missed_ids": 7166,
+      "by_match_count": {
+        "0": {
+          "s1_rows": 500,
+          "true_ids": 0,
+          "recovered_ids": 0,
+          "recall": null
+        },
+        "1": {
+          "s1_rows": 500,
+          "true_ids": 500,
+          "recovered_ids": 309,
+          "recall": 0.618
+        },
+        "2": {
+          "s1_rows": 500,
+          "true_ids": 1000,
+          "recovered_ids": 603,
+          "recall": 0.603
+        },
+        "3": {
+          "s1_rows": 500,
+          "true_ids": 1500,
+          "recovered_ids": 955,
+          "recall": 0.6366666666666667
+        },
+        "4": {
+          "s1_rows": 500,
+          "true_ids": 2000,
+          "recovered_ids": 1251,
+          "recall": 0.6255
+        },
+        "5+": {
+          "s1_rows": 2500,
+          "true_ids": 14147,
+          "recovered_ids": 8863,
+          "recall": 0.6264932494521807
+        }
+      },
+      "average_candidates": 239.996,
+      "median_candidates": 240.0,
+      "p90_candidates": 240.0,
+      "p95_candidates": 240.0,
+      "p99_candidates": 240.0,
+      "max_candidates": 240,
+      "rule_candidate_counts": {
+        "exact_name": 52690,
+        "exact_address": 2479,
+        "country_name": 663517,
+        "country_address": 437686,
+        "name_token": 612534,
+        "address_token": 461196,
+        "prefix_name": 130173,
+        "prefix_address": 112926
+      },
+      "rule_true_id_recall": {
+        "exact_name": 0.24385021152138717,
+        "exact_address": 0.1110356713845511,
+        "country_name": 0.3917062725231107,
+        "country_address": 0.403457460698804,
+        "name_token": 0.19924792395675564,
+        "address_token": 0.32924217893142527,
+        "prefix_name": 0.0314931843108581,
+        "prefix_address": 0.06293414111871311
+      },
+      "singleton": {
+        "s1_rows": 500,
+        "zero_candidate_rows": 0,
+        "zero_candidate_percent": 0.0,
+        "average_candidates": 240.0,
+        "median_candidates": 240.0
+      }
+    },
+    "160": {
+      "overall_recall": 0.6361832140805348,
+      "s2_recall": 0.667025629980616,
+      "s3_recall": 0.6071392353716661,
+      "true_ids": 19147,
+      "recovered_ids": 12181,
+      "missed_ids": 6966,
+      "by_match_count": {
+        "0": {
+          "s1_rows": 500,
+          "true_ids": 0,
+          "recovered_ids": 0,
+          "recall": null
+        },
+        "1": {
+          "s1_rows": 500,
+          "true_ids": 500,
+          "recovered_ids": 313,
+          "recall": 0.626
+        },
+        "2": {
+          "s1_rows": 500,
+          "true_ids": 1000,
+          "recovered_ids": 612,
+          "recall": 0.612
+        },
+        "3": {
+          "s1_rows": 500,
+          "true_ids": 1500,
+          "recovered_ids": 979,
+          "recall": 0.6526666666666666
+        },
+        "4": {
+          "s1_rows": 500,
+          "true_ids": 2000,
+          "recovered_ids": 1268,
+          "recall": 0.634
+        },
+        "5+": {
+          "s1_rows": 2500,
+          "true_ids": 14147,
+          "recovered_ids": 9009,
+          "recall": 0.6368134586838199
+        }
+      },
+      "average_candidates": 319.6498,
+      "median_candidates": 320.0,
+      "p90_candidates": 320.0,
+      "p95_candidates": 320.0,
+      "p99_candidates": 320.0,
+      "max_candidates": 320,
+      "rule_candidate_counts": {
+        "exact_name": 53530,
+        "exact_address": 2499,
+        "country_name": 686455,
+        "country_address": 745824,
+        "name_token": 638316,
+        "address_token": 809423,
+        "prefix_name": 141434,
+        "prefix_address": 177624
+      },
+      "rule_true_id_recall": {
+        "exact_name": 0.24390243902439024,
+        "exact_address": 0.11208022144461273,
+        "country_name": 0.3935342351282185,
+        "country_address": 0.41191831618530317,
+        "name_token": 0.20102365905886038,
+        "address_token": 0.33691962187287827,
+        "prefix_name": 0.03180654932887659,
+        "prefix_address": 0.06387423617276858
+      },
+      "singleton": {
+        "s1_rows": 500,
+        "zero_candidate_rows": 0,
+        "zero_candidate_percent": 0.0,
+        "average_candidates": 319.638,
+        "median_candidates": 320.0
+      }
+    }
+  }
+}
